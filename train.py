@@ -3,6 +3,8 @@ warnings.filterwarnings('ignore')
 import torch
 from ultralytics import YOLO
 
+# test git
+
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/v8/yolov8-bifpn.yaml')
     model.load('yolov8n.pt') # loading pretrain weights
